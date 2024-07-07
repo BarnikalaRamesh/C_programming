@@ -1,0 +1,6 @@
+Program:
+	Find the smallest and Largest value in an array.
+
+Description:
+	Take 30 numbers randomly using srand() and rand() functions. 
+	Find the smallest and largest in the randomly generated 30 numbers and print
