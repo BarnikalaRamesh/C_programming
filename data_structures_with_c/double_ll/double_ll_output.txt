@@ -1,0 +1,542 @@
+./double_ll 
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+list empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+list empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+list empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+list empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:10
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:10
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:20
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:40
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:50
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=10
+data=10
+data=20
+data=40
+data=50
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=10
+data=20
+data=40
+data=50
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=20
+data=40
+data=50
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=40
+data=50
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+List empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:f
+list empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:i
+enter a value to insert:10
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:i
+enter a value to insert:20
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:i
+enter a value to insert:30
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:i
+enter a value to insert:40
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:i
+enter a value to insert:50 
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=40
+data=30
+data=20
+data=10
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:e
+enter a value to insert:60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=40
+data=30
+data=20
+data=10
+data=60
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=40
+data=30
+data=20
+data=10
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=40
+data=30
+data=20
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=40
+data=30
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+data=40
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+printing the list
+data=50
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:p
+List empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:l
+list empty
+
+--------- Enter your option ---------
+i - insert a node at begining
+e - insert a node at the end
+d - delete of a node by data
+f - delete first node
+l - delete last node
+p - print the nodes in list
+q - to quit the application
+Enter your option:q
+
