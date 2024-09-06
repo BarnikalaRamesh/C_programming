@@ -42,7 +42,7 @@ void add_tail(struct node **head)
 	}
 }
 
-void delete_node(struct node *head)
+void delete_node(struct node **head)
 {
 	int val;
 	struct node *tmp, *node;
@@ -54,13 +54,13 @@ void delete_node(struct node *head)
 	printf("enter value to delete:");
 	scanf("%d", &val);
 
-	if (head->data == val) {
-		tmp = head->next;
-		free(head);
-		head = tmp;
+	if ((*head)->data == val) {
+		tmp = (*head)->next;
+		free(*head);
+		*head = tmp;
 		return;
 	}
-	tmp = head;
+	tmp = *head;
 	while (tmp->next != NULL && tmp->next->data != val) {
 		tmp = tmp->next;
 	};
@@ -153,7 +153,7 @@ int main()
                         break;
 
                         case 'd':
-			delete_node(head);
+			delete_node(&head);
                         break;
 
                         case 'f':
