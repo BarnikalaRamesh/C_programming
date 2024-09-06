@@ -88,19 +88,20 @@ struct node *delete_first_node(struct node *head)
         return head;
 }
 
-void delete_last_node(struct node *head)
+void delete_last_node(struct node **head)
 {
         struct node *tmp;
 
-        if (head == NULL) {
+        if (*head == NULL) {
                 printf("list empty\n");
                 return;
         }
-        if (head->next == NULL) {
-                free(head);
-                head = NULL;
+        if ((*head)->next == NULL) {
+                free(*head);
+                *head = NULL;
+		return;
         }
-        tmp = head;
+        tmp = *head;
         while (tmp->next->next != NULL)
                 tmp = tmp->next;
         free(tmp->next);
@@ -160,7 +161,7 @@ int main()
                         break;
 
                         case 'l':
-                        delete_last_node(head);
+                        delete_last_node(&head);
                         break;
 
                         case 'p':
