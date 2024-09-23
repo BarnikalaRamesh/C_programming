@@ -6,7 +6,7 @@ struct node {
         struct node *next;
 };
 
-struct node *add_head(struct node *head)
+void add_head(struct node **head)
 {
 	struct node *new_node = NULL, *tmp;
 	int val;
@@ -15,18 +15,19 @@ struct node *add_head(struct node *head)
         printf("enter a value to insert:");
         scanf("%d", &val);
 	new_node->data = val;
-	new_node->next = head;
-	if (head == NULL) {
+	new_node->next = *head;
+	if (*head == NULL) {
 		new_node->next = new_node;
-		return new_node;
+		*head = new_node;
+		return;
 	}
-	tmp = head;
-	while (tmp != head)
+	tmp = *head;
+	while (tmp->next != *head)
 		tmp = tmp->next;
 
 	tmp->next = new_node;
-	new_node->next = head;
-	return new_node;
+	new_node->next = *head;
+	*head = new_node;
 }
 
 void add_tail(struct node **head)
@@ -51,27 +52,27 @@ void add_tail(struct node **head)
 	}
 }
 
-struct node *delete_first_node(struct node *head)
+void delete_first_node(struct node **head)
 {
         struct node *tmp;
 
-        if (head == NULL) {
+        if (*head == NULL) {
                 printf("list empty\n");
-                return NULL;
+                return;
         }
-	tmp = head;
-	if (tmp->next == head) {
-		free(tmp);
-		return NULL;
+	if ((*head)->next == *head) {
+		free(*head);
+		*head = NULL;
+		return;
 	}
 	/* go to the last node */
-	while (tmp->next != head)
+	tmp = *head;
+	while (tmp->next != *head)
 		tmp = tmp->next;
 
-	tmp->next = head->next;
-	free(head);
-	head = tmp->next;
-	return head;
+	tmp->next = (*head)->next;
+	free(*head);
+	(*head) = tmp->next;
 }
 
 void delete_last_node(struct node **head)
@@ -108,7 +109,7 @@ void delete_node(struct node **head)
 	scanf("%d", &val);
 
 	if ((*head)->data == val) {
-		*head = delete_first_node(*head);
+		delete_first_node(head);
 		return;
 	}
 	tmp = *head;
@@ -141,6 +142,12 @@ void display_list(struct node *head)
 	} while (tmp != head);
 }
 
+void destroy_list(struct node **head)
+{
+	while (*head)
+		delete_first_node(head);
+}
+
 int main()
 {
         struct node *head = NULL, *tmp = NULL, *new_node = NULL;
@@ -162,7 +169,7 @@ int main()
 
                 switch (ch) {
                         case 'i':
-			head = add_head(head);
+			add_head(&head);
                         break;
 
                         case 'e':
@@ -174,7 +181,7 @@ int main()
                         break;
 
                         case 'f':
-                        head = delete_first_node(head);
+                        delete_first_node(&head);
                         break;
 
                         case 'l':
@@ -194,5 +201,6 @@ int main()
                 while(getchar() != '\n');
 
         }
+	destroy_list(&head);
         return 0;
 }
