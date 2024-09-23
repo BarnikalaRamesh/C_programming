@@ -7,7 +7,7 @@ struct node {
 	struct node *prev;
 };
 
-struct node *add_head(struct node *head)
+void add_head(struct node **head)
 {
 	struct node *new_node = NULL;
 	int val;
@@ -17,12 +17,14 @@ struct node *add_head(struct node *head)
         scanf("%d", &val);
 	new_node->data = val;
 	new_node->next = new_node->prev = NULL;
-	if (head == NULL)
-		return new_node;
+	if (*head == NULL) {
+		*head = new_node;
+		return;
+	}
 
-	new_node->next = head;
-	head->prev = new_node;
-	return new_node;
+	new_node->next = *head;
+	(*head)->prev = new_node;
+	*head =  new_node;
 }
 
 void add_tail(struct node **head)
@@ -52,7 +54,7 @@ void delete_node(struct node **head)
 	int val;
 	struct node *tmp, *node;
 
-	if (head == NULL) {
+	if (*head == NULL) {
 		printf("List empty\n");
 		return;
 	}
@@ -83,20 +85,19 @@ void delete_node(struct node **head)
 	free(node);
 }
 
-struct node *delete_first_node(struct node *head)
+void delete_first_node(struct node **head)
 {
         struct node *tmp;
 
-        if (head == NULL) {
+        if (*head == NULL) {
                 printf("list empty\n");
-                return NULL;
+                return;
         }
-        tmp = head;
-        head = tmp->next;
-	if (head)
-		head->prev = NULL;
+        tmp = *head;
+        *head = tmp->next;
+	if (*head)
+		(*head)->prev = NULL;
         free(tmp);
-        return head;
 }
 
 void delete_last_node(struct node **head)
@@ -156,7 +157,7 @@ int main()
 
                 switch (ch) {
                         case 'i':
-			head = add_head(head);
+			add_head(&head);
                         break;
 
                         case 'e':
@@ -168,7 +169,7 @@ int main()
                         break;
 
                         case 'f':
-                        head = delete_first_node(head);
+                        delete_first_node(&head);
                         break;
 
                         case 'l':
